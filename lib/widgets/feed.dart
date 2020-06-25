@@ -56,13 +56,15 @@ class Feed extends StatelessWidget {
     );
   }
 
-  Container buildFeedContainer(ThemeData _theme,
-      {Color color = Colors.blue,
-      String image,
-      String description,
-      String personName,
-      String personImage,
-      String personInfo}) {
+  Container buildFeedContainer(
+    ThemeData _theme, {
+    Color color = Colors.blue,
+    String image,
+    String description,
+    String personName,
+    String personImage,
+    String personInfo,
+  }) {
     return Container(
       width: 250,
       height: 400,
